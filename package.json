@@ -1,0 +1,35 @@
+{
+  "name": "trustified_escrow_package",
+  "version": "1.0.0",
+  "description": "Trustified escrow Agreement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydippatel83/Trustified_package.git"
+  },
+  "keywords": [
+    "Escrow",
+    "agreement",
+    "Trustified",
+    "network",
+    "crypto",
+    "payment"
+  ],
+  "author": "Jaydip Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydippatel83/Trustified_package/issues"
+  },
+  "homepage": "https://github.com/jaydippatel83/Trustified_package#readme",
+  "devDependencies": {
+    "javascript": "^1.0.0",
+    "react": "^18.0.0"
+  },
+  "dependencies": {
+    "ethers": "^5.6.4",
+    "web3": "^1.7.3"
+  }
+}
