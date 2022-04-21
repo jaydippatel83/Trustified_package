@@ -1,6 +1,6 @@
 {
   "name": "trustified_escrow_package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trustified escrow Agreement",
   "main": "index.js",
   "scripts": {
