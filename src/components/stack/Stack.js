@@ -1,9 +1,8 @@
 import { ethers } from 'ethers';
 import React,{useState,useEffect} from 'react'
 import { AgreementAbi } from '../config';
-import { POLYGON } from "../network/Network";
-
-export default function Stack(props) {
+import { POLYGON } from "../network/Network"; 
+ 
   const [contractState, setContractState] = useState(null);
   const [mineStatus, setMineStatus] = useState(null);
   const [open, setOpen] = useState(false);
@@ -158,7 +157,7 @@ export default function Stack(props) {
     });
   }, [props.contractAddress]);
 
-  return {
+  export default {
     getStatus,
     isStaked,
     isCancelled,
@@ -170,4 +169,3 @@ export default function Stack(props) {
     contractState,
     cleanAgreement,
   }
-} 
